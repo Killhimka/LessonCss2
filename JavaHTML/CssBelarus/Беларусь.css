@@ -1,0 +1,28 @@
+body {
+    background: url(../../../images/Беларусь.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: scroll;
+    }
+.fon{
+    background-color: rgba(250, 250, 250, 0.534); 
+    outline-style: dotted;
+}
+p {
+    font-style:italic; color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    list-style-type: circle;
+}
+h1,h2 {
+    padding-left: 15px;
+    padding-top: 5px;
+}
+li{
+    list-style-type: disc;
+  }
+.too li {
+    list-style-type: decimal;
+}
+
+  

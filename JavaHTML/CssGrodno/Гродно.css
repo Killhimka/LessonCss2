@@ -1,0 +1,25 @@
+p {
+    font-style: italic; color: rgb(0, 0, 0);
+    padding-left: 15px;
+    padding-top: 5px;
+}
+
+h1 {
+    text-shadow: 5px 5px 4px rgb(0, 0, 0); color: rgb(255, 166, 0);
+}
+
+body {
+        background: url(../../../images/12345.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+fieldset {
+    background-color: rgba(250, 235, 215, 0.651); 
+}
+.outline_text{
+    outline-style: dotted;
+    height: 240px ;
+}
+
+    

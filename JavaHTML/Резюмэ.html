@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Резюме</h1>
+    <fieldset>
+        <lEGEnd>Контактная информация</lEGEnd>
+        <label>Email: <input type="email" name="Email"></label><br>
+        <label>Телефон: <input type="tel" name="Телефон"></label>
+    </fieldset>
+
+        <fieldset>
+            <Legend>Представтесь </Legend>
+            <label>Имя: <input type="text"name="Имя"></label><br>
+            <label>Фамилия: <input type="text" name="Фамилия"></label><br>
+            <label>Отчество: <input type="text" name="Отчество"></label><br>
+            <label>Дата рождения: <input type="date" name="Отчество" value="01.01.1960">
+            <p>м<input type="radio" name="sex" value="Men">ж<input type="radio" name="sex" value="Girl"></p> </label>
+            <p>Образование</p>
+            <select name="Образование" id="">
+            <option value="Базовое">Базовое</option>
+            <option value="Среднее">Среднее</option>
+            <option value="Среднее специальное">Среднее специальное</option>
+            <option value="Высшее">Высшее</option>
+        </select>
+        </fieldset>
+            <p>Желаемая должность:</p>
+        <select name="form" id="" size="3" multiple = "multiple">
+            <option value="Значение 1">Значение 1</option>
+            <option value="Значение 2">Значение 2</option>
+            <option value="Значение 3">Значение 3</option>
+            <option value="Значение 4">Значение 4</option>
+            <option value="Значение 5">Значение 5</option>
+            <option value="Значение 6">Значение 6</option>
+            <option value="Значение 7">Значение 7</option>
+        </select>
+
+    <form action="">
+        <p>Мы предоставляем:</p>
+        <textarea name="Comments" id="" cols="30" rows="10" readonly>Комфортныеусловия труда и т.д.</textarea>
+        <p>Раскажите о себе:</p>
+        <textarea name="about" id="" cols="30" rows="10"></textarea>
+    </form>
+    <form action="">
+        <p>Я ознакомился с условиями</p>
+    <input type="checkbox">
+    <input type="submit"><br>
+
+
+<form action="">
+    <p>Время открытия церемонии: </p>
+    <input type="time" name="time" value="14:00">
+    <input type="submit">
+</form>
+
+<form action="">
+    <p>Количество гостей (от 1 до 6):</p>
+    <input type="number" size="4" name="num" min="1" max="6" value="1" step="1"><br>
+    <input type="submit">
+</form>
+
+</form>
+</body>
+</html>
