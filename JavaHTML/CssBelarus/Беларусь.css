@@ -29,14 +29,9 @@ li{
 .too li {
     list-style-type: decimal;
 }
-.one{
-    border-radius: 50px 0px 0px 0px;
-}
-.too{
-   
-}
-.three{
-    
+.rb,p{
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .fo{
     border-radius: 0px 0px 50px 50px;
