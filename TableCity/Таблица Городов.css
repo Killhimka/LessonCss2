@@ -1,7 +1,9 @@
 .d1 {
-    position:absolute;
-    top: 170px;
-    left: 560px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%,-50%);
  }    
 .table {border-collapse:collapse;}
      th,td {border: 2px solid green;}
